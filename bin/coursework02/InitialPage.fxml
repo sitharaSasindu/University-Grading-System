@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework02.InitialPageController">
+   <children>
+      <Label alignment="CENTER" prefHeight="91.0" prefWidth="600.0" text="University Of Gugsi">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdmin" layoutX="212.0" layoutY="143.0" mnemonicParsing="false" onAction="#adminbtn" prefHeight="68.0" prefWidth="163.0" text="Admin " />
+      <Button layoutX="212.0" layoutY="245.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="163.0" text="Student " />
+      <Button fx:id="closebtn" layoutX="32.0" layoutY="333.0" mnemonicParsing="false" onAction="#closebtn" prefHeight="39.0" prefWidth="90.0" text="Exit" />
+   </children>
+</AnchorPane>

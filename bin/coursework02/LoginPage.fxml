@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="441.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework02.LoginPageController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" opacity="0.65" prefHeight="86.0" prefWidth="906.0" text="University of Gugsi" textAlignment="CENTER" textFill="#e44b0f">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="106.0" prefHeight="27.0" prefWidth="906.0" text="Please Enter Administration Login Details " textFill="#500cee" />
+      <TextField fx:id="txtUsrName" layoutX="352.0" layoutY="182.0" promptText="User Name" />
+      <Button fx:id="btnSignin" layoutX="670.0" layoutY="336.0" mnemonicParsing="false" onAction="#Login" prefHeight="39.0" prefWidth="124.0" text="Sign in" />
+      <Button fx:id="btnExit" layoutX="123.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="39.0" prefWidth="124.0" text="Exit" />
+      <PasswordField fx:id="txtPassword" layoutX="352.0" layoutY="244.0" promptText="Password" />
+      <Label fx:id="loginstatus" layoutX="385.0" layoutY="309.0" prefHeight="27.0" prefWidth="158.0" textFill="#f20a0a" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="906.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework02.ModuleDisplay">
+  <tabs>
+      <Tab text="Core Modules">
+         <content>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="523.0" prefWidth="906.0">
+                     <children>
+                        <Label layoutX="37.0" layoutY="49.0" prefHeight="27.0" prefWidth="179.0" text="Module Code">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="308.0" layoutY="49.0" prefHeight="27.0" prefWidth="179.0" text="Module Name">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="650.0" layoutY="49.0" prefHeight="27.0" prefWidth="179.0" text="No. of Credits">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="239.0" layoutY="128.0" prefHeight="27.0" prefWidth="264.0" text="Database Systems " />
+                        <Label layoutX="234.0" layoutY="176.0" prefHeight="27.0" prefWidth="264.0" text="Operating System Design " />
+                        <Label layoutX="234.0" layoutY="224.0" prefHeight="27.0" prefWidth="264.0" text="Software Engineering " />
+                        <Label layoutX="234.0" layoutY="272.0" prefHeight="27.0" prefWidth="429.0" text="Computer Networks &amp; Distributed Systems l" />
+                        <Label layoutX="234.0" layoutY="320.0" prefHeight="27.0" prefWidth="264.0" text="Artificial Intelligence " />
+                        <Label layoutX="234.0" layoutY="368.0" prefHeight="27.0" prefWidth="397.0" text="Special topics in Computer Science " />
+                        <Label layoutX="203234.0" layoutY="416.0" prefHeight="27.0" prefWidth="364.0" text="Advanced Topics in Computer Graphics " />
+                        <Label layoutX="234.0" layoutY="464.0" prefHeight="27.0" prefWidth="264.0" text="Laboratory Work " />
+                        <Label layoutX="45.0" layoutY="127.0" text="SC 531" />
+                        <Label layoutX="45.0" layoutY="175.0" text="SC 535" />
+                        <Label layoutX="45.0" layoutY="223.0" text="SC 546" />
+                        <Label layoutX="45.0" layoutY="268.0" text="SC 537" />
+                        <Label layoutX="45.0" layoutY="316.0" text="SC 538" />
+                        <Label layoutX="45.0" layoutY="364.0" text="SC 554" />
+                        <Label layoutX="45.0" layoutY="412.0" text="SC 539" />
+                        <Label layoutX="45.0" layoutY="460.0" text="SC 555" />
+                        <Label layoutX="680.0" layoutY="128.0" text="2" />
+                        <Label layoutX="680.0" layoutY="169.0" text="2" />
+                        <Label layoutX="680.0" layoutY="223.0" text="2" />
+                        <Label layoutX="680.0" layoutY="268.0" text="2" />
+                        <Label layoutX="680.0" layoutY="320.0" text="2" />
+                        <Label layoutX="680.0" layoutY="368.0" text="2" />
+                        <Label layoutX="680.0" layoutY="416.0" text="2" />
+                        <Label layoutX="680.0" layoutY="464.0" text="2" />
+                        <Label layoutX="234.0" layoutY="416.0" text="Advanced topics in computer graphics " />
+                        <Line endX="1000.0" layoutX="378.0" layoutY="83.0" startX="-1000.0" />
+                        <Line endY="400.0" layoutX="216.0" layoutY="100.0" startY="-40.0" />
+                        <Line endY="395.0" layoutX="631.0" layoutY="102.0" startY="-40.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </content>
+      </Tab>
+      <Tab text="Report">
+         <content>
+           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="450.0" prefWidth="906.0">
+               <children>
+                  <ScrollPane layoutX="6.0" prefHeight="450.0" prefWidth="906.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="906.0">
+                           <children>
+                              <Label layoutY="1.0" text="University Of Gugsi">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="2.0" layoutY="14.0" prefHeight="35.0" prefWidth="749.0" text="Input Student Details">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="100.0" layoutY="58.0" prefHeight="30.0" prefWidth="138.0" text="Student ID       :">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font></Label>
+                              <Label layoutX="100.0" layoutY="88.0" text="Student Name :">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font></Label>
+                              <Label layoutX="80.0" layoutY="144.0" text="Core Modules">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="48.0" layoutY="177.0" text="Database Systems " />
+                              <Label layoutX="48.0" layoutY="204.0" prefHeight="27.0" prefWidth="209.0" text="Operating System Design " />
+                              <Label layoutX="48.0" layoutY="231.0" prefHeight="27.0" prefWidth="181.0" text="Software Engineering " />
+                              <Label layoutX="48.0" layoutY="339.0" prefHeight="27.0" prefWidth="353.0" text="Advanced Topics in Computer Graphics " />
+                              <Label layoutX="48.0" layoutY="258.0" prefHeight="27.0" prefWidth="410.0" text="Computer Networks &amp; Distributed Systems " />
+                              <Label layoutX="48.0" layoutY="285.0" prefHeight="27.0" prefWidth="176.0" text="Artificial Intelligence " />
+                              <Label layoutX="48.0" layoutY="366.0" prefHeight="27.0" prefWidth="150.0" text="Laboratory Work " />
+                              <Label layoutX="48.0" layoutY="312.0" prefHeight="27.0" prefWidth="294.0" text="Special topics in Computer Science " />
+                              <Label layoutX="77.0" layoutY="401.0" text="Optional Modules">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font></Label>
+                              <Label layoutX="58.0" layoutY="427.0" text="Semester I">
+                                 <font>
+                                    <Font name="System Italic" size="18.0" />
+                                 </font></Label>
+                              <Label layoutX="56.0" layoutY="543.0" text="Semester II">
+                                 <font>
+                                    <Font name="System Italic" size="18.0" />
+                                 </font></Label>
+                              <Label layoutX="89.0" layoutY="692.0" text="Preliminary Modules">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="54.0" layoutY="857.0" prefHeight="27.0" prefWidth="209.0" text="Programming techniques" />
+                              <Label layoutX="56.0" layoutY="830.0" prefHeight="27.0" prefWidth="295.0" text="Data structures and Algorithms" />
+                              <Label layoutX="56.0" layoutY="722.0" text="Introduction to Computer Science" />
+                              <Label layoutX="56.0" layoutY="776.0" prefHeight="27.0" prefWidth="309.0" text="Introduction to Computer Architecture" />
+                              <Label layoutX="56.0" layoutY="749.0" prefHeight="27.0" prefWidth="308.0" text="Introduction to theory of computation" />
+                              <Label layoutX="55.0" layoutY="803.0" prefHeight="27.0" prefWidth="340.0" text="Programming and electronics laboratories" />
+                              <Label fx:id="lblID" layoutX="240.0" layoutY="56.0" prefHeight="27.0" prefWidth="171.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font></Label>
+                              <Label fx:id="lblName" layoutX="240.0" layoutY="74.0" prefHeight="27.0" prefWidth="171.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font></Label>
+                              <Label fx:id="lblOPModnme1" layoutX="49.0" layoutY="455.0" prefHeight="27.0" prefWidth="325.0" />
+                              <Label fx:id="lblOPModnme2" layoutX="49.0" layoutY="482.0" prefHeight="27.0" prefWidth="303.0" />
+                              <Label fx:id="lblOPModnme3" layoutX="50.0" layoutY="509.0" prefHeight="27.0" prefWidth="281.0" />
+                              <Label fx:id="lblOPModnme4" layoutX="50.0" layoutY="570.0" prefHeight="27.0" prefWidth="281.0" />
+                              <Label fx:id="lblOPModnme5" layoutX="50.0" layoutY="597.0" prefHeight="27.0" prefWidth="281.0" />
+                              <Label fx:id="lblOPModnme6" layoutX="50.0" layoutY="624.0" prefHeight="27.0" prefWidth="281.0" />
+                              <Label fx:id="lblOPModnme7" layoutX="50.0" layoutY="651.0" prefHeight="27.0" prefWidth="281.0" />
+                              <Label fx:id="lblCMod1" layoutX="505.0" layoutY="178.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Line endX="1000.0" layoutX="355.0" layoutY="204.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="352.0" layoutY="231.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="319.0" layoutY="258.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="354.0" layoutY="285.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="401.0" layoutY="312.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="342.0" layoutY="339.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="280.0" layoutY="366.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="342.0" layoutY="393.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="333.0" layoutY="177.0" startX="-1000.0" />
+                              <Label fx:id="lblCMod2" layoutX="505.0" layoutY="204.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblCMod3" layoutX="505.0" layoutY="231.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblCMod4" layoutX="505.0" layoutY="258.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblCMod5" layoutX="505.0" layoutY="285.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblCMod6" layoutX="505.0" layoutY="312.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblCMod7" layoutX="505.0" layoutY="339.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblCMod8" layoutX="505.0" layoutY="366.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod1" layoutX="505.0" layoutY="455.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod2" layoutX="505.0" layoutY="482.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod3" layoutX="505.0" layoutY="509.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod4" layoutX="505.0" layoutY="570.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod5" layoutX="505.0" layoutY="597.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod6" layoutX="505.0" layoutY="624.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblOPMod7" layoutX="505.0" layoutY="651.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblPreMod1" layoutX="505.0" layoutY="722.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblPreMod2" layoutX="505.0" layoutY="749.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblPreMod5" layoutX="505.0" layoutY="830.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblPreMod4" layoutX="505.0" layoutY="803.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblPreMod3" layoutX="505.0" layoutY="776.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label fx:id="lblPreMod6" layoutX="505.0" layoutY="857.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Label layoutX="53.0" layoutY="884.0" prefHeight="27.0" prefWidth="80.0" text="Seminar" />
+                              <Line endX="1000.0" layoutX="280.0" layoutY="454.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="164.0" layoutY="535.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="164.0" layoutY="570.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="229.0" layoutY="597.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="238.0" layoutY="624.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="378.0" layoutY="651.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="502.0" layoutY="678.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="257.0" layoutY="482.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="158.0" layoutY="508.0" startX="-1000.0" />
+                              <Line endY="120.0" layoutX="418.0" layoutY="272.0" startY="-96.0" />
+                              <Line endY="40.0" layoutX="418.0" layoutY="496.0" startY="-40.0" />
+                              <Line endY="65.0" layoutX="419.0" layoutY="611.0" startY="-40.0" />
+                              <Line endX="1000.0" layoutX="401.0" layoutY="722.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="342.0" layoutY="749.0" startX="-10000.0" />
+                              <Line endX="1000.0" layoutX="292.0" layoutY="776.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="401.0" layoutY="803.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="410.0" layoutY="830.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="443.0" layoutY="857.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="623.0" layoutY="884.0" startX="-1000.0" />
+                              <Line endX="1000.0" layoutX="434.0" layoutY="911.0" startX="-1000.0" />
+                              <Label fx:id="lblPreMod7" layoutX="505.0" layoutY="884.0" prefHeight="27.0" prefWidth="219.0" />
+                              <Line endY="93.0" layoutX="419.0" layoutY="817.0" startY="-93.0" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Preliminary Modules">
+         <content>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="542.0" prefWidth="906.0">
+                     <children>
+                        <Label layoutX="83.0" layoutY="71.0" text="Module Code">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="424.0" layoutY="71.0" text="Module Name">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="345.0" layoutY="144.0" text="Introduction to Computer Science" />
+                        <Label layoutX="345.0" layoutY="198.0" text="Introduction to theory of computation" />
+                        <Label layoutX="345.0" layoutY="252.0" text="Introduction to Computer Architecture" />
+                        <Label layoutX="345.0" layoutY="306.0" text="Programming and electronics laboratories" />
+                        <Label layoutX="345.0" layoutY="360.0" text="Seminar" />
+                        <Label layoutX="345.0" layoutY="414.0" text="Data structures and Algorithms" />
+                        <Label layoutX="345.0" layoutY="468.0" text="Programming techniques" />
+                        <Label layoutX="109.0" layoutY="144.0" text="SC 411" />
+                        <Label layoutX="109.0" layoutY="198.0" text="SC 412" />
+                        <Label layoutX="109.0" layoutY="252.0" text="SC 414" />
+                        <Label layoutX="109.0" layoutY="306.0" text="SC 415" />
+                        <Label layoutX="109.0" layoutY="360.0" text="SC 416" />
+                        <Label layoutX="109.0" layoutY="414.0" text="SC 417" />
+                        <Label layoutX="109.0" layoutY="468.0" text="SC 418" />
+                        <Line endX="1000.0" layoutX="333.0" layoutY="107.0" startX="-1000.0" />
+                        <Line endY="360.0" layoutX="292.0" layoutY="131.0" startY="-50.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>
